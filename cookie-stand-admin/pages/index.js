@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import React from 'react'
-import Link from 'next/link'
 
 
+import { getToken } from '../services/data-fetcher'
 import { useState } from 'react'
 import { hours } from '../data'
 
